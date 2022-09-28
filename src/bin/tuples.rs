@@ -10,4 +10,8 @@ fn main() {
     let (n1, n2) = tuple_return_function(1,2,3);
 
     println!("{:?} {:?}", n1, n2);
+
+    let numbers = (1,2,3,4);
+
+    println!("{:?} {:?} {:?} {:?}", numbers.0, numbers.1, numbers.2, numbers.3);
 }
