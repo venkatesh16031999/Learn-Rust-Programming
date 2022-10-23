@@ -1,8 +1,10 @@
+#[allow(dead_code)]
 struct Person {
     age: i32,
     name: String,
 }
 
+#[allow(dead_code)]
 #[derive(PartialEq)]
 enum Sports {
     Cricket,
